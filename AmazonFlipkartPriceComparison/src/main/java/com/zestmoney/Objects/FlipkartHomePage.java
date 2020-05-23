@@ -9,9 +9,9 @@ public class FlipkartHomePage
 	By search = By.xpath("//input[@name='q']");
 	By submitbutton = By.xpath("//button[@type='submit']");
 
-	public FlipkartHomePage(WebDriver flipkartDriver) {
+	public FlipkartHomePage(WebDriver driver) {
 
-		this.driver = flipkartDriver;
+		this.driver = driver;
 	}
 
 	
